@@ -1,35 +1,41 @@
-*{
+* {
     margin: 0;
 }
 
-.principal{
+.principal {
 
-     padding: 30px;
+    padding: 30px;
     background-color: #e9c4ff
 }
-.titulo-principal{
+
+.titulo-principal {
     padding-left: 20px;
     padding: 10px;
 
 }
-h1{
+
+h1 {
 
     text-align: left;
 }
-h2,h3{
+
+h2,
+h3 {
     padding: 20px 0;
-    
-text-align: center;
+
+    text-align: center;
 }
-h2{
+
+h2 {
     font-size: 40px;
 }
 
-h3{
+h3 {
     font-size: 30px;
 }
+
 p {
-    
+
     text-align: center;
 }
 
@@ -37,46 +43,48 @@ p {
 
     font-size: 20px;
 }
- em   strong{
 
-        color: #8127e7;;
+em strong {
+
+    color: #8127e7;
+    ;
 }
 
-.bosta{
+.bosta {
     width: 100%;
 }
 
-.nerdola{
+.nerdola {
 
     text-align: center;
 }
 
-.beneficios{
-    
+.beneficios {
+
     background-color: #bab8fc;
 }
 
-.listabeneficios{
+.listabeneficios {
 
-   display: inline-block;
-    
+    display: inline-block;
+
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
-    
+
 
 }
 
-.itens{
+.itens {
     font-style: italic;
 }
 
-.imagem{
+.imagem {
 
     width: 50%;
 }
 
-footer{
+footer {
     font-size: 26px;
     color: white;
     height: 300px;
@@ -85,5 +93,3 @@ footer{
     align-items: center;
     flex-direction: column;
 }
-
-
