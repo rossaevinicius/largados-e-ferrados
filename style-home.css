@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+}
+
+.principal {
+
+    padding: 30px;
+    background-color: #ffffff
+}
+
+.titulo-principal {
+    padding-left: 20px;
+    padding: 10px;
+
+}
+ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+li>a {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #00a6ff;
+    text-decoration: underline;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+section>div {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 320px;
+    height: 420px;
+    margin-right: 50px;
+    text-align: center;
+    transition: all 0.1s linear;
+}
+
+section>div:hover {
+    border: 1px solid #00ff1a;
+    transform: scale(1.05);
+}
+
+
+h1 {
+
+    text-align: left;
+}
+
+h2,
+h3 {
+    padding: 20px 0;
+
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+
+    text-align: center;
+}
+
+.boi {
+
+    font-size: 20px;
+}
+
+em strong {
+
+    color: #ff0000;
+    ;
+}
+
+.bosta {
+    width: 100%;
+}
+
+.nerdola {
+
+    text-align: center;
+ 
+}
+
+
+
+.beneficios {
+
+    background-color: #ffffff;
+}
+
+.listabeneficios {
+
+    display: inline-block;
+
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-size: 30px;
+
+
+}
+
+.itens {
+    font-style: italic;
+}
+
+.imagem {
+
+    width: 50%;
+}
+
+footer {
+    font-size: 26px;
+    color: white;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.itens{
+    width: 1000%;
+}
+
