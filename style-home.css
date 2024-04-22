@@ -1,14 +1,13 @@
-* {
+*{
     margin: 0;
 }
 
-.principal {
+.principal{
 
-    padding: 30px;
-    background-color: #ffffff
+     padding: 30px;
+    background-color: #9f9f9f
 }
-
-.titulo-principal {
+.titulo-principal{
     padding-left: 20px;
     padding: 10px;
 
@@ -20,7 +19,7 @@ ul {
 }
 
 li>a {
-    color: rgb(255, 0, 0);
+    color: black;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
@@ -29,7 +28,7 @@ li>a {
 }
 
 a:hover {
-    color: #00a6ff;
+    color: #51ff00;
     text-decoration: underline;
 }
 
@@ -42,7 +41,7 @@ section {
 }
 
 section>div {
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid black;
     border-radius: 10px;
     width: 320px;
     height: 420px;
@@ -52,33 +51,27 @@ section>div {
 }
 
 section>div:hover {
-    border: 1px solid #00ff1a;
+    border: 1px solid #000000;
     transform: scale(1.05);
 }
-
-
-h1 {
+h1{
 
     text-align: left;
 }
-
-h2,
-h3 {
+h2,h3{
     padding: 20px 0;
-
-    text-align: center;
+   
+text-align: center;
 }
-
-h2 {
+h2{
     font-size: 40px;
 }
 
-h3 {
+h3{
     font-size: 30px;
 }
-
 p {
-
+   
     text-align: center;
 }
 
@@ -86,52 +79,422 @@ p {
 
     font-size: 20px;
 }
+ em   strong{
 
-em strong {
-
-    color: #ff0000;
-    ;
+        color: orangered;;
 }
 
-.bosta {
+.Barba{
+    width: 100%;
+}
+*{
+    margin: 0;
+}
+
+.principal{
+
+     padding: 30px;
+    background-color: #737373
+}
+.titulo-principal{
+    padding-left: 20px;
+    padding: 10px;
+
+}
+ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+li>a {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #19a1c7;
+    text-decoration: underline;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+section>div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 320px;
+    height: 420px;
+    margin-right: 50px;
+    text-align: center;
+    transition: all 0.1s linear;
+}
+
+section>div:hover {
+    border: 1px solid #000000;
+    transform: scale(1.05);
+}
+h1{
+
+    text-align: left;
+}
+h2,h3{
+    padding: 20px 0;
+   
+text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+p {
+   
+    text-align: center;
+}
+
+.boi {
+    margin: 0;
+}
+
+.principal{
+
+     padding: 30px;
+    background-color: #6a6666
+}
+.titulo-principal{
+    padding-left: 20px;
+    padding: 10px;
+
+}
+ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+li>a {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #00e21e;
+    text-decoration: underline;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+section>div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 320px;
+    height: 420px;
+    margin-right: 50px;
+    text-align: center;
+    transition: all 0.1s linear;
+}
+
+section>div:hover {
+    border: 1px solid #000000;
+    transform: scale(1.05);
+}
+h1{
+
+    text-align: left;
+}
+h2,h3{
+    padding: 20px 0;
+   
+text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+p {
+   
+    text-align: center;
+}
+
+.boi {
+
+    font-size: 20px;
+}
+ em   strong{
+
+        color: orangered;;
+}
+
+.Barba{
     width: 100%;
 }
 
-.nerdola {
+.nerdola{
 
     text-align: center;
- 
+}
+
+.beneficios{
+   
+    background-color: #7d7b7b;
+}
+
+.listabeneficios{
+
+   display: inline-block;
+   
+    margin: 0;
+}
+
+.principal{
+
+     padding: 30px;
+    background-color: #5f5d5d
+}
+.titulo-principal{
+    padding-left: 20px;
+    padding: 10px;
+
+}
+ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+li>a {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #0dff00;
+    text-decoration: underline;
 }
 
 
 
-.beneficios {
-
-    background-color: #ffffff;
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-.listabeneficios {
+section>div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 320px;
+    height: 420px;
+    margin-right: 50px;
+    text-align: center;
+    transition: all 0.1s linear;
+}
 
-    display: inline-block;
+section>div:hover {
+    border: 1px solid #000000;
+    transform: scale(1.05);
+}
+h1{
 
+    text-align: left;
+}
+h2,h3{
+    padding: 20px 0;
+   
+text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+p {
+   
+    text-align: center;
+}
+
+.boi {
+
+    font-size: 20px;
+}
+ em   strong{
+
+        color: orangered;;
+}
+
+.Barba{
+    width: 100%;
+}
+
+.nerdola{
+
+    text-align: center;
+}
+
+.beneficios{
+   
+    background-color: #ccc;
+}
+
+.listabeneficios{
+
+   display: inline-block;
+   
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
     font-size: 30px;
 
-
 }
 
-.itens {
+.itens{
     font-style: italic;
 }
 
-.imagem {
+.imagem{
 
     width: 50%;
 }
+footer{
+    font-size: 26px;
+    color: white;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-size: 30px;
 
-footer {
+}
+
+.itens{
+    font-style: italic;
+}
+
+.imagem{
+
+    width: 50%;
+}
+footer{
+    font-size: 26px;
+    color: white;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+
+    font-size: 20px;
+}
+ em   strong{
+
+        color: orangered;;
+}
+
+.Barba{
+    width: 100%;
+}
+
+.nerdola{
+
+    text-align: center;
+}
+
+.beneficios{
+   
+    background-color: #ccc;
+}
+
+.listabeneficios{
+
+   display: inline-block;
+   
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-size: 30px;
+
+}
+
+.itens{
+    font-style: italic;
+}
+
+.imagem{
+
+    width: 50%;
+}
+footer{
+    font-size: 26px;
+    color: white;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.nerdola{
+
+    text-align: center;
+}
+
+.beneficios{
+   
+    background-color: #ccc;
+}
+
+.listabeneficios{
+
+   display: inline-block;
+   
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-size: 30px;
+
+}
+
+.itens{
+    font-style: italic;
+}
+
+.imagem{
+
+    width: 50%;
+}
+footer{
+    width: 100%;
     font-size: 26px;
     color: white;
     height: 300px;
@@ -139,9 +502,5 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
 
-.itens{
-    width: 1000%;
 }
-
