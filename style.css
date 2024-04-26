@@ -138,3 +138,19 @@ form label, form p{
 .chekbox{
     margin:20px 0;
 }
+p{
+    color: red;
+}
+form p{
+    color:blue
+}
+.teste{
+    color:green
+}
+#teste{
+  
+    color: purple;
+}
+p.teste{
+    color: orange;
+}
